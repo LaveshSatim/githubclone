@@ -5,7 +5,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'githubnavbar': '#161B22',
+        'githubbody': '#0D1117',
+      }
+
+    },
   },
   plugins: [],
 }
